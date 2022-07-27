@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Кодировка страницы -->
+    <meta charset="UTF-8">
+    <!-- Настройка адаптивности страницы -->
+    <!-- Фиксированная ширина -->
+    <!-- <meta name="viewport" content="1170"> -->
+    <!-- Адаптивность |user-scalable=0 (убирает возможность приближения на телефоне)| -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, user-scalable=0">
+    <!-- Отклчение формиования ссылки у номера телефона на iOS|content="telephone=yes(работает)|content="telephone=no(не аботает)| -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- Краткое описание страницы (текст до 400 символов) -->
+    <meta name="description" content="Какой-то текст">
+    <!-- Ключевые слова страницы (текст до 20 символов) -->
+    <meta name="keywords" content="Какой-то текст">
+    <!-- Управление доступом поисковых роботов к странице  -->
+    <meta name="robots" content="">
+    <!-- Подключение js файлов   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220718205604"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20220718205604"></script>
+    <!-- Подключение css файла -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20220718205604">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css?_v=20220718205604"/>
+    <title>About</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__inner">
+                <div class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item active">
+                            <a class="menu__list-link" href="about.html">About</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="gallery.html">Gallery</a>
+                        </li>
+                    </ul>
+                    <div class="menu__log">
+                        <a href="index.html">
+                            <picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.png" alt=""></picture>
+                        </a>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="сontact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__burger">
+                    <span>line 1</span>
+                    <span>line 2</span>
+                    <span>line 3</span>
+                    <span>line 4</span>
+                </div>
+                <div class="rightside-menu">
+                    <button class="rightside-menu__close">
+                        <img src="img/rightside-menu/close.svg" alt="">
+                    </button>
+                    <div class="rightside-menu__content">
+                        <div class="rightside-menu__logo">
+                            <picture><source srcset="img/rightside-menu/logo.webp" type="image/webp"><img src="img/rightside-menu/logo.png" alt=""></picture>
+                        </div>
+                        <div class="rightside-menu__title title">Furniture for life</div>
+                        <div class="rightside-menu__text">Sustainable hot chicken skateboard, dreamcatcher meggings actually squid. Slow-carb everyday carry +1 art party microdosing, put a bird on it brooklyn</div>
+                        <div class="rightside-menu__img">
+                            <picture><source srcset="img/rightside-menu/Rectangle.webp" type="image/webp"><img src="img/rightside-menu/Rectangle.jpg" alt=""></picture>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="main">
+            <div class="breadcrumbs bg">
+                <div class="breadcrumbs__body">
+                    <div class="breadcrumbs__item">
+                        <a href="index.html">Home/</a>
+                    </div>
+                    <div class="breadcrumbs__item">
+                        <a href="about.html">About</a>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <div class="about__img ibg">
+                    <picture><source srcset="img/about/placeholder.webp" type="image/webp"><img src="img/about/placeholder.jpg" alt=""></picture>
+                </div>
+                <div class="about__title">About Us</div>
+            </div>
+            <div class="balance">
+                <div class="container">
+                    <div class="balance__title title">Balance in the simple through an informed marriage of design, functional and craft</div>
+                    <div class="balance__text">
+                        <p>Vexillologist vape microdosing freegan pork belly deep v direct trade cray single-origin coffee street art. Viral shaman mustache master cleanse, pour-over affogato poutine copper mug marfa fanny pack normcore. Lo-fi pop-up banjo portland, echo park hammock chillwave literally post-ironic ramps subway tile kitsch. Shaman tumblr fixie echo park street art. Enamel pin vaporware wayfarers, organic succulents hella sustainable cardigan.</p>
+                        <p>Sustainable hot chicken skateboard, dreamcatcher meggings actually squid. Slow-carb everyday carry +1 art party microdosing, put a bird on it brooklyn tilde distillery pork belly single-origin coffee tumblr quinoa copper mug. Affogato cold-pressed unicorn, viral intelligentsia leggings raw denim kombucha tote bag messenger bag chambray vape coloring book scenester. Activated charcoal wayfarers church-key tote bag synth brunch. Retro cornhole</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <div class = "video__play ibg">
+                    <picture><source srcset="img/about/video.webp" type="image/webp"><img src="img/about/video.jpg" alt=""></picture>
+                </div>
+                <a class="video__play-imgbtn fancybox" data-fancybox href="https://youtu.be/eeFYHfOoDPE">
+                    <img src="img/about/play_button.svg" alt="play button">
+                </a>
+            </div>
+            <div class="details">
+                <div class="details__bg ibg">
+                    <picture><source srcset="img/about/Object.webp" type="image/webp"><img src="img/about/Object.jpg" alt=""></picture>
+                </div>
+                <div class="details__inner">
+                    <div class="details__img ibg">
+                        <picture><source srcset="img/about/Green_chair.webp" type="image/webp"><img src="img/about/Green_chair.png" alt=""></picture>
+                    </div>
+                    <div class="details__body">
+                        <div class="details__title">
+                            <div class="details__title-title title">Our Inspiration in details</div>
+                            <div class="details__title-text">Semiotics fixie four dollar toast, next level woke scenester direct trade photo booth helvetica jean shorts. Fanny pack church-key cornhole, banh mi thundercats gochujang keytar.</div>
+                        </div>
+                        <div class="details__progressbar">
+                            <div class="details__progressbar-item">
+                                <div class="details__progressbar-info">
+                                    <div class="details__progressbar-title">Design and technical drawings</div>
+                                    <div class="details__progressbar-number">80%</div>
+                                </div>
+                                <div class="details__progressbar-line" style="width: 80%;">line</div>
+                            </div>
+                            <div class="details__progressbar-item">
+                                <div class="details__progressbar-info">
+                                    <div class="details__progressbar-title">Measurments</div>
+                                    <div class="details__progressbar-number">70%</div>
+                                </div>
+                                <div class="details__progressbar-line" style="width: 70%;">line</div>
+                            </div>
+                            <div class="details__progressbar-item">
+                                <div class="details__progressbar-info">
+                                    <div class="details__progressbar-title">Furniture functionality analysis</div>
+                                    <div class="details__progressbar-number">75%</div>
+                                </div>
+                                <div class="details__progressbar-line" style="width: 75%;">line</div>
+                            </div>
+                            <div class="details__progressbar-item">
+                                <div class="details__progressbar-info">
+                                    <div class="details__progressbar-title">Interior visualization</div>
+                                    <div class="details__progressbar-number">40%</div>
+                                </div>
+                                <div class="details__progressbar-line" style="width: 40%;">line</div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="partners">
+                <div class="partners__logos">
+                    <a href="#"><img src="img/about/partners/1.svg" alt=""></a>
+                    <a href="#"><img src="img/about/partners/2.svg" alt=""></a>
+                    <a href="#"><img src="img/about/partners/1.svg" alt=""></a>
+                    <a href="#"><img src="img/about/partners/2.svg" alt=""></a>
+                    <a href="#"><img src="img/about/partners/1.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="picture card">
+                <div class="card__item">
+                    <div class="card__img">
+                        <picture><source srcset="img/about/gallery/1.webp" type="image/webp"><img src="img/about/gallery/1.jpg" alt=""></picture>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title title">Truffaut literally trust</div>
+                        <div class="card__text">Living room furntiture | Chair</div>
+                    </div>
+                </div>
+                <div class="card__item">
+                    <div class="card__img">
+                        <picture><source srcset="img/about/gallery/2.webp" type="image/webp"><img src="img/about/gallery/2.jpg" alt=""></picture>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title title">Truffaut literally trust</div>
+                        <div class="card__text">Living room furntiture | Chair</div>
+                    </div>
+                </div>
+                <div class="card__item">
+                    <div class="card__img">
+                        <picture><source srcset="img/about/gallery/3.webp" type="image/webp"><img src="img/about/gallery/3.jpg" alt=""></picture>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title title">Truffaut literally trust</div>
+                        <div class="card__text">Living room furntiture | Chair</div>
+                    </div>
+                </div>
+                <div class="card__item">
+                    <div class="card__img">
+                        <picture><source srcset="img/about/gallery/4.webp" type="image/webp"><img src="img/about/gallery/4.jpg" alt=""></picture>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title title">Truffaut literally trust</div>
+                        <div class="card__text">Living room furntiture | Chair</div>
+                    </div>
+                </div>
+                <div class="card__item">
+                    <div class="card__img">
+                        <picture><source srcset="img/about/gallery/5.webp" type="image/webp"><img src="img/about/gallery/5.jpg" alt=""></picture>
+                    </div>
+                    <div class="card__body">
+                        <div class="card__title title">Truffaut literally trust</div>
+                        <div class="card__text">Living room furntiture | Chair</div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <footer class="footer">
+    <div class="footer__bg-gray">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__contacts">
+                    <div class="footer__contacts-title">Contact Us</div>
+                    <div class="footer__contacts-text">Keffiyeh poutine etsy, paleo cray put a bird on it microdosing <br> schlitz you probably occupy
+                    </div>
+                    <div class="footer__contacts-email">
+                        <img src="img/footer/mail.svg" alt="">
+                        <a href="mailto:ouremailaddress@email.com">ouremailaddress@email.com</a>
+                    </div>
+                    <form class="footer__contacts-form" action="#">
+                        <input class="footer__contacts-input" type="email" name="useremail" tabindex="1" placeholder="Subscribe by email">
+                        <button class="footer__contacts-btn" type="submit" tabindex="2">Send</button>
+                    </form>
+                </div>
+                <div class="footer__social">
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <img class="footer__social-img" src="img/footer/facebook.svg" alt="">
+                            <a class="footer__social-link" href="#">Facebook</a>
+                        </li>
+                        <li class="footer__social-item">
+                            <img class="footer__social-img" src="img/footer/instagram.svg" alt="">
+                            <a class="footer__social-link" href="#">Instagram</a>
+                        </li>
+                        <li class="footer__social-item">
+                            <img class="footer__social-img" src="img/footer/Pinterest.svg" alt="">
+                            <a class="footer__social-link" href="#">Pinterest</a>
+                        </li>
+                        <li class="footer__social-item">
+                            <img class="footer__social-img" src="img/footer/whatsapp.svg" alt="">
+                            <a class="footer__social-link" href="#">Whatsapp</a>
+                        </li>
+                        <li class="footer__social-item">
+                            <img class="footer__social-img" src="img/footer/youtube.svg" alt="">
+                            <a class="footer__social-link" href="#">Youtube</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <ul class="footer__links-list">
+                        <li class="footer__links-item">
+                            <a href="#">Delivery</a>
+                        </li>
+                        <li class="footer__links-item">
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li class="footer__links-item">
+                            <a href="#">Help</a>
+                        </li>
+                        <li class="footer__links-item">
+                            <a href="#">More About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bg-black">
+        <p>674 Gonzales Drive.</p>
+        <p>Washington, PA 15301</p>
+    </div>
+</footer>
+    </div>
+    <script src="js/app.min.js?_v=20220718205604"></script>
+</body>
+</html>
